@@ -1,0 +1,11 @@
+result=$(($(($RANDOM%10))%2))
+if [ $result -eq 0 ]
+then
+    echo "coin filp"
+    echo "heads"
+elif [ $result -eq 1 ]
+then
+    echo "coin filp"
+    echo "tails"
+fi
+
