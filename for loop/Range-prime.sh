@@ -1,5 +1,5 @@
-read -p "Enter the Start number.." start
-read -p "Enter the End number.." end
+read -p "Enter the Start number: " start
+read -p "Enter the End number: " end
 for ((i=$start;i<=$end;i++))
 do
         count=0
