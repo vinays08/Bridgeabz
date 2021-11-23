@@ -1,8 +1,8 @@
-echo "enter a number"
+echo "enter a number to find the factorial: "
 read num
 f=1
 for((i=2;i<=num;i++))
 {
-  f=$((fact * i))
+  f=$((f *i))
 }
-echo $f
+echo Factorial of $num is $f
