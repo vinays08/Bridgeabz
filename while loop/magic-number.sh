@@ -17,7 +17,7 @@ do
 		isNotMagicNumber=0
 		echo "The magic number is $low "
 	else
-		read -p "is number is less than $mid yes:" choice
+		read -p "Is your number less than $mid yes:" choice
 	fi
 	if [[ "$choice" == "yes" || "$choice" == "y" || "$choice" == "Y" ]]
 	then
